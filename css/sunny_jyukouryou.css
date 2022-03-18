@@ -1,0 +1,284 @@
+@charset"utf-8";
+
+body {
+//    background-image: url("../image/background_img.png");
+    
+    
+}
+#wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+#header1 {  
+    display: flex;
+    /* justify-content: flex-start; */
+    justify-content: center;
+    align-items: center;
+    background-color: #FFC947;
+    position: relative;
+}
+#toplogo {
+    position: absolute;
+    left: 0;
+}
+
+
+h1 {
+    margin-top: 0;
+    font-family: ariel;
+    font-size: 4rem;
+    color: #799BBD;
+    text-align: center;
+    background-color: #FFC947;
+}
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFC947;
+    
+}
+.header2 p {
+    font-size: 1.8rem;
+    color: #fff;
+    margin: 10px 0 0 10px;
+    
+}
+.header2 a {
+    margin-top: 20px;
+    color: black;
+}
+#sns {
+    margin: 3px;
+    background: #FFC947;
+}
+#sns img {
+
+}
+#navarea {
+    background: #FFC947;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    font-family: ＤＦ細丸ゴシック体;
+}
+
+nav {
+	background-color:transparent;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav li {
+    flex-direction: 
+	font-size: 1.8rem;
+	width: 150px;
+	list-style: none;
+	text-align: center;
+	line-height: 3rem;
+    
+}
+nav li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.mizuiro a:hover {
+    background: #56C0FF;
+    color: #FFF;
+}
+.orengi a:hover {
+    background: #FC9C47;
+    color: #FFF;
+}
+.midori a:hover {
+    background: #A19EFF;
+    color: #FFF;
+}
+.pinku a:hover {
+    background: #799BBD;
+    color: #FFF;
+}
+.fukamidori a:hover {
+    background: #30B6B9;
+    color: #FFF;
+}
+.contents_wrapper {
+    background: #30B6B9;
+}
+h2{
+    
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.3em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: source-han-sans-japanese,'メイリオ',Meiryo,"小塚ゴシック Pro R", "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+    color: #534741;
+    border-top: 4px solid #f8ad3a;
+    border-bottom: 4px solid #f8ad3a;
+    padding: 10px 0;
+    text-align: center;
+    background: #fff;
+}
+
+
+.sukejyuru {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.jyukouryou {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background: #30B6B9;
+    padding: 20px 0 50px 0;
+
+}
+
+.jyukouryou table {
+    margin: 0 auto;
+    background: aliceblue;
+}
+table {
+    border-collapse: collapse;
+    text-align: left;
+}
+th, td {
+    padding: 20px;
+    border: 1px solid #333;
+}
+th {
+    background-color: #B0E69A;
+    text-align: center;
+    color: #FFF;
+    border: 1px solid #151614;
+}
+
+
+
+
+
+.bx-wrapper{
+    position: relative;  
+}
+
+#rogo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#rogo img{
+    max-width: 100%;
+    height: auto;
+    opacity: 0.9;
+  filter: drop-shadow(0 0 5px #6EE5BB);
+}
+
+#rogo img:hover{
+       opacity: 0.8;
+}
+
+.slider img{
+width: 100%;
+height: 100%;
+ z-index: 5;
+}
+#contents {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #30B6B9;
+}
+main{
+    width: 800px;
+    margin: 0 auto;
+}
+.aisatu {
+    display: flex;
+    background-color: #7F80F3;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+#enchouIMG {
+    width: 170px;
+    text-align: center;
+    margin: 20px;
+}
+.enchouP h2{
+    font-size: 1.8rem;
+    margin-top: 20px;
+    
+}
+
+.enchouP {
+    width: 570px;
+    height: 240px;
+    background: white;
+    font-size: 1rem;
+    margin-top: 20px;
+    
+    word-break: break-word;
+}
+
+
+
+
+#honbun {
+    width: 630px;
+    line-height: 1.4rem;
+    text-align: left;
+    
+}
+footer {
+    background-color: #DADAD9;
+}
+
+
+footer li{
+	float: left;
+	margin-right: 40px;
+}
+#footertop {
+    display: flex;
+    background: #DADAD9;
+    justify-content: center;
+    text-align: center;
+
+}
+#footertop section {
+    margin: 30px 0 0 0;
+}
+#footertop li a {
+	color: #000;
+	text-decoration: none;
+}
+#footerunder {
+	display: flex;
+    justify-content: flex-end;
+}
+#footerunder img {
+	margin: 0 -150px 0 0;
+	
+}
+footer p {
+    display: flex;
+    justify-content:center;
+}
+
+
+
+
+
+

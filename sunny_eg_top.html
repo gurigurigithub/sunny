@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/common.css" rel="stylesheet">
+<link href="css/sunny_top.css" rel="stylesheet"> 
+<link href="bxslider/jquery.bxslider.css" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="common/%E3%83%95%E3%82%A1%E3%83%93%E3%82%B3%E3%83%B334%C3%9734.svg">
+
+<!-- https://kenwheeler.github.io/slick/ -->
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+<!-- viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+    
+<body>
+<div id="wrapper">
+    <header>
+        <div id="header1">
+            <div id="toplogo">
+                <img src="common/%E3%83%95%E3%82%A1%E3%83%93%E3%82%B3%E3%83%B334%C3%9734.svg" alt="sunny" width="70" height="50">
+            </div>
+            <h1>sunny pre school</h1>
+        </div>
+
+        <div class="header2"> 
+            <p><a href="index.html">japanese</a></p>
+            <div id="sns">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div> 
+        </div>
+
+        <div id="navarea">
+            <nav>
+                <ul>
+                    <li class="mizuiro"><a href="sunny_eg_top.html" style="background: #56C0FF">top</a></li>
+                    <li class="orengi"><a href="sunny_eg_access.html">access</a></li>
+                    <li class="midori"><a href="sunny_eg_Teacher.html">teacher</a></li>
+                    <li class="pinku" ><a href="sunny_eg_kids.html">kids</a></li>
+                    <li class="fukamidori" ><a href="sunny_eg_jyukouryou.html">tuition fee</a></li> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!-------------------------------headerここまで----------------------------------->
+    <div class="contents_wrapper">
+      <div class="bx-wrapper">
+          <ul class="feature_images" data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'>
+              <li class="feature_image"><img src="bxslider/bx.top1.png" alt="" /></li>
+              <li class="feature_image"><img src="bxslider/bx_top2.png" alt="" /></li>
+              <li class="feature_image"><img src="bxslider/bx_top3.jpg" alt="" /></li>
+              <li class="feature_image"><img src="bxslider/bx_top4.jpg" alt="" /></li>
+              <li class="feature_image"><img src="bxslider/bx_top5.jpg" alt="" /></li>
+          </ul>
+
+          <div id="rogo">
+              <a href="about.html">
+                  <img src="image/rogo%E5%A4%AA%E9%99%BD%E8%89%B2%E9%89%9B%E7%AD%86.png" alt="ロゴ">
+              </a>
+          </div>
+      </div>
+
+      <div id="contents">
+          <main>
+              <section class="aisatu">
+                  <div id="enchouIMG">
+                      <img src="image/sensei3.jpg" width="165" height="236">
+                  </div> 
+                  <div class="enchouP">
+                      <h2>director of pre school</h2>
+                      <p>
+                      Welcome to Step N’ Stones English Preschool.
+
+Since 2002, I have been involved in kindergarten, elementary, junior high school, high school and sometimes college education in Japan. During that experience, I realized how important an exciting and interesting education is important at an early age for students to reach their full potential. I also have experienced how hard parents work to help their children study and grow. We strive at Step N’ Stones to give both parents and children a place where they can create a strong foundation in language, spirit and mind.
+
+Step N’ Stones is the first English Preschool in Shimane and has been started to help students with the new educational demands that are made by the Ministry of Education. All of our highly qualified teachers work together to help the students grow in both English and Japanese, Western and Japanese culture, and spirit and mind. Young learners are able to accept new things very easily and it is a great time to give them a strong foundation in language and thought.
+
+It is also important for us to work with and help our local community, while also supporting parents with their wants and needs. We are happy to meet and speak with you.
+
+Robert Sieveking</p>
+                  </div>
+              </section> 
+          </main>
+      </div>
+  </div>
+<!-------------------------------footerここから----------------------------------->    
+    <footer>
+        <div id="footertop">
+            <section>
+                <ul>
+                    <li><a href="#">個人情報保護ポリシー</a></li>
+                    <li><a href="#">プライバシーポリシー</a></li>
+                    <li><a href="#">ご利用条件</a></li>
+                    <li><a href="#">お問い合わせ</a></li>
+                </ul>
+
+                <div id="footerunder">
+                    <img src="common/%E3%83%95%E3%82%A1%E3%83%93%E3%82%B3%E3%83%B334%C3%9734.svg" alt="eigameshi" width="137" height="50">
+                </div>
+          </section>
+        </div>
+
+        <p>&copy;2021 sunny pre school</p>
+    </footer>
+</div>
+
+<!-- https://kenwheeler.github.io/slick/ -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/jquery-1.10.2.min.js">    
+</script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('.feature_images').slick({
+    centerMode: true,
+    centerPadding: '96px',
+    slidesToShow: 2,
+    dots: true,
+    autoplay: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+});
+</script>
+<script src="https://kit.fontawesome.com/d5de74c201.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+<style>
+/* スマホ */
+@media screen and (max-width: 480px) {
+    .enchouIMG {
+        display: flex;
+        align-items: center;
+        height: 800px;
+        ;
+    }
+    #enchouIMG img {
+        width: 200px;
+        height: 260px;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    .enchouP {
+        
+        margin-left: 35px;
+        width: 300px;
+        height: 600px;
+        text-align: center;
+        margin-top: -10px;
+    }
+    .enchouP p {
+        margin-bottom: -30px;
+    }
+    .aisatu {
+        display: block;
+        width: 480px;
+        height: 800x;
+        margin-bottom: -50px;   
+    }
+    #contents {
+        padding-top: 0px;
+    }
+    nav ul {
+        display:block;
+    }
+    nav li {
+        font-size: 1.5rem;
+    }
+    #toplogo {
+        margin-top: 70px;
+    } 
+    #footertop {
+        display: block;
+        text-align: center;
+        height: 80px;
+        margin-top: -30px;
+        padding-top: -30;
+        
+    }
+    
+    footer p {
+    display: block;
+    text-align: center;
+     
+}
+ul li {
+    text-align: center;
+}
+}
+</style>

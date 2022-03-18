@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/common.css" rel="stylesheet">
+<link href="css/sunny_access.css" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="common/%E3%83%95%E3%82%A1%E3%83%93%E3%82%B3%E3%83%B334%C3%9734.svg">    
+
+<!-- viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+    
+<body>
+<div id="wrapper">
+
+<header>
+    <div id="header1">
+        <div id="toplogo">
+            <img src="common/%E3%83%95%E3%82%A1%E3%83%93%E3%82%B3%E3%83%B334%C3%9734.svg" alt="sunny" width="70" height="50">
+        </div>
+        <h1>sunny pre school</h1>
+    </div>
+    <div class="header2"> 
+        <p><a href="sunny_jp_access.html">japanese</a></p>
+            <div id="sns">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div> 
+    </div>
+<div id="navarea">
+    <nav>
+        <ul>
+            <li class="mizuiro"><a href="sunny_eg_top.html">top</a></li>
+            <li class="orengi"><a href="sunny_eg_acses.html" style="background: #FC9C47;">accsess</a></li>
+            <li class="midori"><a href="sunny_eg_Teacher.html">teacher</a></li>
+            <li class="pinku"><a href="sunny_eg_kids.html">kids</a></li>
+            <li class="fukamidori"><a href="sunny_eg_jyukouryou.html">tuition fee</a></li>
+        </ul>
+    </nav>
+    </div>
+    
+</header>
+<!-------------------------------headerここまで----------------------------------->    
+   
+<div id="contents">
+<p>sunny pre scool</p>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d573.0276505218536!2d139.7292064724291!3d35.66385368229975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f114!3m3!1m2!1s0x60188b7852cd9099%3A0xab9ffbc6940259fa!2zUm9wcG9uZ2kgUGxhY2UsIO-8l-S4geebri3vvJHvvJIt77yS77yQIOWFreacrOacqCDmuK_ljLog5p2x5Lqs6YO9IDEwNi0wMDMy!5e0!3m2!1sja!2sjp!4v1624502127703!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    
+<p>〒106-0032<br>
+tokyoto-roppongi-７-１２-２０<br>
+Roppongi Place 1F</p>
+</div>
+<p class="yoyakuicon"><a href="reserve-step1.html"><img src="common/yoyakuicon.png"></a></p>
+    
+    
+    
+    
+    
+    
+<!-------------------------------footerここから----------------------------------->      
+    
+<footer>
+
+<div id="footertop">
+<section>
+<ul>
+<li><a href="#">個人情報保護ポリシー</a></li>
+<li><a href="#">プライバシーポリシー</a></li>
+<li><a href="#">ご利用条件</a></li>
+<li><a href="#">お問い合わせ</a></li>
+</ul>
+<div id="footerunder">
+<img src="common/%E3%83%95%E3%82%A1%E3%83%93%E3%82%B3%E3%83%B334%C3%9734.svg" alt="eigameshi" width="137" height="50">
+</div>
+</section>
+</div>
+
+<p>&copy;2021 sunny pre scool</p>
+    
+</footer>
+
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/yoyakuaicon.js" type="text/javascript"></script>
+
+<script>  
+var _window = $(window),
+    _header = $('header'),
+    heroBottom;
+ 
+_window.on('scroll',function(){
+    heroBottom = $('#hero').height();
+    if(_window.scrollTop() > heroBottom){
+        _header.addClass('fixed');   
+    }
+    else{
+        _header.removeClass('fixed');   
+    }
+});
+_window.trigger('scroll');
+</script>
+
+</div>
+<script src="https://kit.fontawesome.com/d5de74c201.js" crossorigin="anonymous"></script>
+</body>    
+</html>
+ 
+
+<style>
+/* スマホ */
+@media screen and (max-width: 480px) {
+    .enchouIMG {
+        display: flex;
+        align-items: center;
+        height: 800px;
+        ;
+    }
+    #enchouIMG img {
+        width: 200px;
+        height: 260px;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    .enchouP {
+        
+        margin-left: 35px;
+        width: 300px;
+        height: 600px;
+        text-align: center;
+        margin-top: -10px;
+    }
+    .enchouP p {
+        margin-bottom: -30px;
+    }
+    .aisatu {
+        display: block;
+        width: 480px;
+        height: 800x;
+        margin-bottom: -50px;   
+    }
+    #contents {
+        padding-top: 0px;
+    }
+    nav ul {
+        display:block;
+    }
+    nav li {
+        font-size: 1.5rem;
+    }
+    #toplogo {
+        margin-top: 70px;
+    } 
+    #footertop {
+        display: block;
+        text-align: center;
+        height: 80px;
+        margin-top: -30px;
+        padding-top: -30;
+        
+    }
+    
+    footer p {
+    display: block;
+    text-align: center;
+     
+}
+ul li {
+    text-align: center;
+}
+}
+</style>
+    
